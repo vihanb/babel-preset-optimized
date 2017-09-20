@@ -7,6 +7,7 @@ This is a list of plugins this uses. Do note that by default, not all of these m
  - [babel-plugin-minify-constant-folding](https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-constant-folding)
  - [babel-plugin-loop-optimizer](https://github.com/vihanb/babel-plugin-loop-optimizer)
  - [babel-plugin-closure-elimination](https://github.com/codemix/babel-plugin-closure-elimination)
+ - [babel-plugin-tailcall-optimization](https://github.com/krzkaczor/babel-plugin-tailcall-optimization)
 
 This may be expanded in the future, feel free to send a PR too
 

@@ -1,11 +1,13 @@
 {
   "name": "babel-preset-optimized",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Babel presets for optimized code",
   "main": "index.js",
   "dependencies": {
+    "babel-plugin-closure-elimination": "^1.2.0",
     "babel-plugin-loop-optimizer": "^1.4.1",
-    "babel-plugin-minify-constant-folding": "^0.2.0"
+    "babel-plugin-minify-constant-folding": "^0.2.0",
+    "babel-plugin-tailcall-optimization": "^1.0.11"
   },
   "devDependencies": {},
   "scripts": {
