@@ -5,16 +5,17 @@ module.exports = function(context, options) {
     var config = {
         "plugins": [
             require("babel-plugin-minify-constant-folding"),
-            require("babel-plugin-closure-elimination"),
-            require("babel-plugin-tailcall-optimization")
+            require("babel-plugin-closure-elimination").default,
+            require("babel-plugin-tailcall-optimization").default
         ]
     };
 
     if (unsafe) {
         config.plugins.push(
-            require("babel-plugin-loop-optimizer")
+            require("babel-plugin-loop-optimizer").default
         )
     }
 
     return config;
 };
+
