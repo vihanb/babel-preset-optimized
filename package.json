@@ -1,0 +1,24 @@
+{
+  "name": "babel-preset-optimized",
+  "version": "1.0.0",
+  "description": "Babel presets for optimized code",
+  "main": "index.js",
+  "dependencies": {
+    "babel-plugin-loop-optimizer": "^1.4.1",
+    "babel-plugin-minify-constant-folding": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vihanb/babel-preset-optimized.git"
+  },
+  "author": "Vihan B <contact@vihan.org> (vihan.org)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vihanb/babel-preset-optimized/issues"
+  },
+  "homepage": "https://github.com/vihanb/babel-preset-optimized#readme"
+}
