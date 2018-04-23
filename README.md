@@ -55,3 +55,5 @@ This enables optimizations which would otherwise result in code with slightly di
  - [babel-plugin-loop-optimizer](https://github.com/vihanb/babel-plugin-loop-optimizer
  ): See the repository for information about what it does.
 
+ - [faster.js](https://github.com/vzhou842/faster.js): See the repository for information about what it does.
+

@@ -12,7 +12,8 @@ module.exports = function(context, options) {
 
     if (unsafe) {
         config.plugins.push(
-            require("babel-plugin-loop-optimizer").default
+            require("babel-plugin-loop-optimizer").default,
+            require("faster.js")
         )
     }
 
